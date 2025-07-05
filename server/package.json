@@ -1,0 +1,20 @@
+{
+  "name": "daily-life-recorder-server",
+  "version": "1.0.0",
+  "description": "Backend server for Daily Life Recorder",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["express", "nodejs", "diary", "local-storage"],
+  "author": "Your Name",
+  "license": "MIT"
+} 
